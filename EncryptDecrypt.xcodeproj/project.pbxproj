@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEF1548215179FD200E206CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF1548115179FD200E206CA /* Cocoa.framework */; };
+		DEF1548C15179FD200E206CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF1548A15179FD200E206CA /* InfoPlist.strings */; };
+		DEF1548E15179FD200E206CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF1548D15179FD200E206CA /* main.m */; };
+		DEF1549215179FD200E206CA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DEF1549015179FD200E206CA /* Credits.rtf */; };
+		DEF1549515179FD200E206CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF1549415179FD200E206CA /* AppDelegate.m */; };
+		DEF1549815179FD200E206CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF1549615179FD200E206CA /* MainMenu.xib */; };
+		DEF1549B15179FD200E206CA /* EncryptDecrypt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEF1549915179FD200E206CA /* EncryptDecrypt.xcdatamodeld */; };
+		DEF154A315179FD200E206CA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF154A215179FD200E206CA /* SenTestingKit.framework */; };
+		DEF154A415179FD200E206CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF1548115179FD200E206CA /* Cocoa.framework */; };
+		DEF154AC15179FD200E206CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF154AA15179FD200E206CA /* InfoPlist.strings */; };
+		DEF154AF15179FD200E206CA /* EncryptDecryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF154AE15179FD200E206CA /* EncryptDecryptTests.m */; };
+		DEF154BC1517A00600E206CA /* NSData+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF154B91517A00600E206CA /* NSData+AESCrypt.m */; };
+		DEF154BD1517A00600E206CA /* NSData+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF154B91517A00600E206CA /* NSData+AESCrypt.m */; };
+		DEF154BE1517A00600E206CA /* NSString+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF154BB1517A00600E206CA /* NSString+AESCrypt.m */; };
+		DEF154BF1517A00600E206CA /* NSString+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF154BB1517A00600E206CA /* NSString+AESCrypt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEF154A515179FD200E206CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEF1547415179FD200E206CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF1547C15179FD200E206CA;
+			remoteInfo = EncryptDecrypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEF1547D15179FD200E206CA /* EncryptDecrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncryptDecrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF1548115179FD200E206CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DEF1548415179FD200E206CA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DEF1548515179FD200E206CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DEF1548615179FD200E206CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEF1548915179FD200E206CA /* EncryptDecrypt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EncryptDecrypt-Info.plist"; sourceTree = "<group>"; };
+		DEF1548B15179FD200E206CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEF1548D15179FD200E206CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEF1548F15179FD200E206CA /* EncryptDecrypt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EncryptDecrypt-Prefix.pch"; sourceTree = "<group>"; };
+		DEF1549115179FD200E206CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DEF1549315179FD200E206CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEF1549415179FD200E206CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEF1549715179FD200E206CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DEF1549A15179FD200E206CA /* EncryptDecrypt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EncryptDecrypt.xcdatamodel; sourceTree = "<group>"; };
+		DEF154A115179FD200E206CA /* EncryptDecryptTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptDecryptTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF154A215179FD200E206CA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DEF154A915179FD200E206CA /* EncryptDecryptTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EncryptDecryptTests-Info.plist"; sourceTree = "<group>"; };
+		DEF154AB15179FD200E206CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEF154AD15179FD200E206CA /* EncryptDecryptTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptDecryptTests.h; sourceTree = "<group>"; };
+		DEF154AE15179FD200E206CA /* EncryptDecryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptDecryptTests.m; sourceTree = "<group>"; };
+		DEF154B81517A00600E206CA /* NSData+AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AESCrypt.h"; sourceTree = "<group>"; };
+		DEF154B91517A00600E206CA /* NSData+AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AESCrypt.m"; sourceTree = "<group>"; };
+		DEF154BA1517A00600E206CA /* NSString+AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AESCrypt.h"; sourceTree = "<group>"; };
+		DEF154BB1517A00600E206CA /* NSString+AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AESCrypt.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEF1547A15179FD200E206CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF1548215179FD200E206CA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF1549D15179FD200E206CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF154A315179FD200E206CA /* SenTestingKit.framework in Frameworks */,
+				DEF154A415179FD200E206CA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEF1547215179FD200E206CA = {
+			isa = PBXGroup;
+			children = (
+				DEF154B81517A00600E206CA /* NSData+AESCrypt.h */,
+				DEF154B91517A00600E206CA /* NSData+AESCrypt.m */,
+				DEF154BA1517A00600E206CA /* NSString+AESCrypt.h */,
+				DEF154BB1517A00600E206CA /* NSString+AESCrypt.m */,
+				DEF1548715179FD200E206CA /* EncryptDecrypt */,
+				DEF154A715179FD200E206CA /* EncryptDecryptTests */,
+				DEF1548015179FD200E206CA /* Frameworks */,
+				DEF1547E15179FD200E206CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF1547E15179FD200E206CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEF1547D15179FD200E206CA /* EncryptDecrypt.app */,
+				DEF154A115179FD200E206CA /* EncryptDecryptTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEF1548015179FD200E206CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF1548115179FD200E206CA /* Cocoa.framework */,
+				DEF154A215179FD200E206CA /* SenTestingKit.framework */,
+				DEF1548315179FD200E206CA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEF1548315179FD200E206CA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF1548415179FD200E206CA /* AppKit.framework */,
+				DEF1548515179FD200E206CA /* CoreData.framework */,
+				DEF1548615179FD200E206CA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DEF1548715179FD200E206CA /* EncryptDecrypt */ = {
+			isa = PBXGroup;
+			children = (
+				DEF1549315179FD200E206CA /* AppDelegate.h */,
+				DEF1549415179FD200E206CA /* AppDelegate.m */,
+				DEF1549615179FD200E206CA /* MainMenu.xib */,
+				DEF1549915179FD200E206CA /* EncryptDecrypt.xcdatamodeld */,
+				DEF1548815179FD200E206CA /* Supporting Files */,
+			);
+			path = EncryptDecrypt;
+			sourceTree = "<group>";
+		};
+		DEF1548815179FD200E206CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEF1548915179FD200E206CA /* EncryptDecrypt-Info.plist */,
+				DEF1548A15179FD200E206CA /* InfoPlist.strings */,
+				DEF1548D15179FD200E206CA /* main.m */,
+				DEF1548F15179FD200E206CA /* EncryptDecrypt-Prefix.pch */,
+				DEF1549015179FD200E206CA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEF154A715179FD200E206CA /* EncryptDecryptTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEF154AD15179FD200E206CA /* EncryptDecryptTests.h */,
+				DEF154AE15179FD200E206CA /* EncryptDecryptTests.m */,
+				DEF154A815179FD200E206CA /* Supporting Files */,
+			);
+			path = EncryptDecryptTests;
+			sourceTree = "<group>";
+		};
+		DEF154A815179FD200E206CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEF154A915179FD200E206CA /* EncryptDecryptTests-Info.plist */,
+				DEF154AA15179FD200E206CA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEF1547C15179FD200E206CA /* EncryptDecrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF154B215179FD200E206CA /* Build configuration list for PBXNativeTarget "EncryptDecrypt" */;
+			buildPhases = (
+				DEF1547915179FD200E206CA /* Sources */,
+				DEF1547A15179FD200E206CA /* Frameworks */,
+				DEF1547B15179FD200E206CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncryptDecrypt;
+			productName = EncryptDecrypt;
+			productReference = DEF1547D15179FD200E206CA /* EncryptDecrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEF154A015179FD200E206CA /* EncryptDecryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF154B515179FD200E206CA /* Build configuration list for PBXNativeTarget "EncryptDecryptTests" */;
+			buildPhases = (
+				DEF1549C15179FD200E206CA /* Sources */,
+				DEF1549D15179FD200E206CA /* Frameworks */,
+				DEF1549E15179FD200E206CA /* Resources */,
+				DEF1549F15179FD200E206CA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF154A615179FD200E206CA /* PBXTargetDependency */,
+			);
+			name = EncryptDecryptTests;
+			productName = EncryptDecryptTests;
+			productReference = DEF154A115179FD200E206CA /* EncryptDecryptTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEF1547415179FD200E206CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DEF1547715179FD200E206CA /* Build configuration list for PBXProject "EncryptDecrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEF1547215179FD200E206CA;
+			productRefGroup = DEF1547E15179FD200E206CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF1547C15179FD200E206CA /* EncryptDecrypt */,
+				DEF154A015179FD200E206CA /* EncryptDecryptTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEF1547B15179FD200E206CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF1548C15179FD200E206CA /* InfoPlist.strings in Resources */,
+				DEF1549215179FD200E206CA /* Credits.rtf in Resources */,
+				DEF1549815179FD200E206CA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF1549E15179FD200E206CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF154AC15179FD200E206CA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DEF1549F15179FD200E206CA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEF1547915179FD200E206CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF1548E15179FD200E206CA /* main.m in Sources */,
+				DEF1549515179FD200E206CA /* AppDelegate.m in Sources */,
+				DEF1549B15179FD200E206CA /* EncryptDecrypt.xcdatamodeld in Sources */,
+				DEF154BC1517A00600E206CA /* NSData+AESCrypt.m in Sources */,
+				DEF154BE1517A00600E206CA /* NSString+AESCrypt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF1549C15179FD200E206CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF154AF15179FD200E206CA /* EncryptDecryptTests.m in Sources */,
+				DEF154BD1517A00600E206CA /* NSData+AESCrypt.m in Sources */,
+				DEF154BF1517A00600E206CA /* NSString+AESCrypt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEF154A615179FD200E206CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEF1547C15179FD200E206CA /* EncryptDecrypt */;
+			targetProxy = DEF154A515179FD200E206CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEF1548A15179FD200E206CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF1548B15179FD200E206CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEF1549015179FD200E206CA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF1549115179FD200E206CA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DEF1549615179FD200E206CA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF1549715179FD200E206CA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DEF154AA15179FD200E206CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF154AB15179FD200E206CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEF154B015179FD200E206CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DEF154B115179FD200E206CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DEF154B315179FD200E206CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptDecrypt/EncryptDecrypt-Prefix.pch";
+				INFOPLIST_FILE = "EncryptDecrypt/EncryptDecrypt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEF154B415179FD200E206CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptDecrypt/EncryptDecrypt-Prefix.pch";
+				INFOPLIST_FILE = "EncryptDecrypt/EncryptDecrypt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DEF154B615179FD200E206CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EncryptDecrypt.app/Contents/MacOS/EncryptDecrypt";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptDecrypt/EncryptDecrypt-Prefix.pch";
+				INFOPLIST_FILE = "EncryptDecryptTests/EncryptDecryptTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DEF154B715179FD200E206CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EncryptDecrypt.app/Contents/MacOS/EncryptDecrypt";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptDecrypt/EncryptDecrypt-Prefix.pch";
+				INFOPLIST_FILE = "EncryptDecryptTests/EncryptDecryptTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEF1547715179FD200E206CA /* Build configuration list for PBXProject "EncryptDecrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF154B015179FD200E206CA /* Debug */,
+				DEF154B115179FD200E206CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF154B215179FD200E206CA /* Build configuration list for PBXNativeTarget "EncryptDecrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF154B315179FD200E206CA /* Debug */,
+				DEF154B415179FD200E206CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEF154B515179FD200E206CA /* Build configuration list for PBXNativeTarget "EncryptDecryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF154B615179FD200E206CA /* Debug */,
+				DEF154B715179FD200E206CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEF1549915179FD200E206CA /* EncryptDecrypt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEF1549A15179FD200E206CA /* EncryptDecrypt.xcdatamodel */,
+			);
+			currentVersion = DEF1549A15179FD200E206CA /* EncryptDecrypt.xcdatamodel */;
+			path = EncryptDecrypt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DEF1547415179FD200E206CA /* Project object */;
+}
